@@ -64,7 +64,7 @@ void display()
     }
     else
     {
-        printf("No elements to Display");
+        printf("No any elements to Display");
     }
 }
 
@@ -77,7 +77,7 @@ int main()
     printf("\n\t 1.PUSH\n\t 2.POP\n\t 3.PEEK\n\t 4.DISPLAY\n\t 5.EXIT");
 
     do{
-        printf("\nEnter Your Choice  ");
+        printf("\nPleace Enter Your Choice  ");
         scanf("%c",&choice);
         switch(choice)
         {
